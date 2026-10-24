@@ -17,7 +17,7 @@ spec:
         - name: ghcr-pull-secret
       containers:
         - name: task-service
-          image: ghcr.io/proops2026-taskmanager/task-service:latest
+          image: ghcr.io/walterdmt88-taskmanager/task-service:latest
           ports:
             - containerPort: 3002
           env:
